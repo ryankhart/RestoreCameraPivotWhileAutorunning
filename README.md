@@ -29,4 +29,4 @@ dotnet build -c Release
 
 ## Icon Attribution
 
-- Icon design based on `video-camera_13270083` from Magnific: https://www.magnific.com/icon/video-camera_13270083
+- `<a href="https://www.magnific.com/icon/video-camera_13270083">Icon by Freepik</a>`
