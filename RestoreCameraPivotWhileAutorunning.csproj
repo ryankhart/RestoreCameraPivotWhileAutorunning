@@ -13,8 +13,4 @@
             <Visible>false</Visible>
         </Content>
     </ItemGroup>
-
-    <Target Name="CopyRootIcon" BeforeTargets="PackagePlugin;DefaultDalamudPackagerRelease;DefaultDalamudPackagerDebug">
-        <Copy SourceFiles="images/icon.png" DestinationFiles="$(OutputPath)icon.png" />
-    </Target>
 </Project>
