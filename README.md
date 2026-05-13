@@ -26,3 +26,7 @@ dotnet build -c Release
 
 - This plugin has no settings UI.
 - This plugin uses a low-level hook on camera control mode resolution.
+
+## Icon Attribution
+
+- Icon design based on `video-camera_13270083` from Magnific: https://www.magnific.com/icon/video-camera_13270083
