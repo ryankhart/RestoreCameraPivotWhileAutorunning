@@ -2,6 +2,10 @@
 
 Standalone Dalamud plugin for FFXIV that temporarily restores legacy camera pivot behavior while auto-running.
 
+## Why Use It
+
+If you play with Legacy movement and have `Disable camera pivot` enabled, auto-running can still force camera behavior that feels inconsistent with the rest of your movement. This plugin makes auto-run feel more consistent by restoring the legacy pivot only during auto-run.
+
 ## What It Does
 
 - Only affects Legacy Type movement
