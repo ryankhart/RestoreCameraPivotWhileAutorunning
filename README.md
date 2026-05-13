@@ -29,4 +29,4 @@ dotnet build -c Release
 
 ## Icon Attribution
 
-- `<a href="https://www.magnific.com/icon/video-camera_13270083">Icon by Freepik</a>`
+- <a href="https://www.magnific.com/icon/video-camera_13270083">Icon by Freepik</a>
