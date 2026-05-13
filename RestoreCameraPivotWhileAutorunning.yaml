@@ -1,0 +1,14 @@
+name: Restore Camera Pivot While Auto-Running
+author: ryankhart
+description: |-
+  Temporarily restores legacy camera pivot while auto-running.
+  Only affects Legacy Type movement with Disable camera pivot enabled.
+punchline: Restore legacy camera pivot while auto-running.
+repo_url: https://github.com/ryankhart/RestoreCameraPivotWhileAutorunning
+tags:
+  - camera
+  - movement
+  - utility
+category_tags:
+  - ui
+accepts_feedback: false

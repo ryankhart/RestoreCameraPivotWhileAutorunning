@@ -1,0 +1,20 @@
+<Project Sdk="Dalamud.NET.Sdk/15.0.0">
+    <PropertyGroup>
+        <AssemblyName>RestoreCameraPivotWhileAutorunning</AssemblyName>
+        <Version>1.0.0.0</Version>
+        <Nullable>enable</Nullable>
+        <LangVersion>latest</LangVersion>
+        <AppendPlatformToOutputPath>false</AppendPlatformToOutputPath>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Content Include="images/icon.png">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+            <Visible>false</Visible>
+        </Content>
+    </ItemGroup>
+
+    <Target Name="CopyRootIcon" BeforeTargets="PackagePlugin;DefaultDalamudPackagerRelease;DefaultDalamudPackagerDebug">
+        <Copy SourceFiles="images/icon.png" DestinationFiles="$(OutputPath)icon.png" />
+    </Target>
+</Project>
